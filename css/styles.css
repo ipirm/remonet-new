@@ -10897,7 +10897,7 @@ button.swiper-pagination-bullet {
     left: 25% !important; }
   .input-login p span {
     top: -3px !important;
-    left: 2px !important; }
+    left: -3px !important; }
   .inputs-row {
     margin-top: 45px !important; }
   .input-login .input-registration::before {
