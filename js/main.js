@@ -7,3 +7,7 @@
         el: '.swiper-pagination',
       },
     });
+
+ $(".hamburger--slider").click(function() {
+    $(this).toggleClass("is-active");
+  });
