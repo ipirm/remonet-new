@@ -1,0 +1,30 @@
+.footer {
+	margin-top: 180px;
+}
+
+.footer-title {
+	color: #000000;
+	font-size: 30px;
+	font-weight: 700;
+	margin-bottom: 70px;
+}
+
+.footer-link {
+	margin-top: 80px;
+	list-style: none;
+	$this: &;
+
+	&__item {
+		color: #000000;
+		font-size: 20px;
+		font-weight: 700;
+		line-height: 40px;
+	}
+}
+
+.footer-description {
+	margin-top: 90px;
+	color: #333333;
+	font-size: 18px;
+	font-weight: 500;
+}
