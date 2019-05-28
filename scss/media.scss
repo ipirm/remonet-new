@@ -1,0 +1,141 @@
+@media only screen and (max-width: 600px) {
+	.consultation-btn__item__look{
+		display: none;
+	}
+	.header-menu__text{
+		margin-left: 7px;
+		font-size: 20px;
+	}
+	.header-information__title{
+		font-size: 15px;
+	}
+	.header-information__number{
+		font-size: 27px;
+	}
+	.header-information__link{
+		font-size: 19px;
+	}
+	.header-information__subtitle {
+    font-size: 32px;
+    margin-top: 73px;
+}
+	.consultation-row__title{
+		font-size: 15px;
+	}
+	.consultation-row__subtitle{
+		font-size: 19px;
+	}
+	.consultation-row__subtitle__sm {
+    margin-top: 3px;
+    font-size: 19px;
+}
+	.consultation-btn__item span{
+		font-size: 14px;
+	}
+	.consultation-btn__item{
+		height: 59px;
+	}
+	.header{
+		height: auto;
+	}
+	.overlay-consultation{
+		height: 470px;
+	}
+	.advantages-row .advantages-row__item{
+		height: 293px;
+	}
+	.advantages-row__item__text{
+		font-size: 15px;
+	}
+	.opportunities-title{
+		font-size: 30px;
+	}
+	.opportunities-title span::before {
+    border-bottom: 3px solid #ff6600;
+    height: 82%;
+}
+	.opportunities-row{
+		margin-top: 38px;
+	}
+	.opportunities-row__item{
+		    height: 210px;
+		    padding: 35px;
+	}
+	.opportunities-row__item__text{
+		font-size: 15px;
+		margin-top: 14px;
+	}
+	.deadlines-title{
+		font-size: 30px !important;
+	}
+	.deadlines-subtitle{
+		font-size: 17px !important;
+		  margin-top: 20px !important;
+	}
+	.deadlines-row{
+		padding-top: 40px !important;
+	}
+	.deadlines-row__item__number{
+		font-size: 30px !important;
+	}
+	.deadlines-row__item__number span{
+		font-size: 50px !important;
+	}
+	.deadlines-row__item__text{
+		    font-size: 15px !important;
+		 margin-top: 0px !important;
+	}
+	.deadlines-row__item{
+		    margin-bottom: 10px !important;
+	}
+	.deadlines-subtitle{
+		margin-bottom: 30px !important;
+	}
+	.deadlines-questions{
+		    margin-top: 26px !important;
+		font-size: 21px !important;
+		margin-bottom: 25px !important;
+	}
+	.deadlines{
+		padding-bottom: 40px !important;
+	}
+	.about-title{
+		font-size: 26px !important;
+		    line-height: 34px !important;
+	}
+	.about{
+		padding-top: 40px !important;
+		    padding-bottom: 85px !important;
+	}
+	.about-subtitle{
+		    margin-top: 32px !important;
+		    font-size: 17px !important;
+		    margin-bottom: 70px !important;
+	}
+	.inner-slide__text{
+		font-size: 13px !important;
+	}
+	.inner-slide__quote{
+		    font-size: 80px !important;
+		    top: 0% !important;
+	}
+	.inner-slide{
+		height: 216px !important;
+	}
+	.inner-slide__person__text{
+		    font-size: 17px !important;
+	}
+	.quality-item__text{
+		    font-size: 15px !important;
+	}
+	.quality-item__title{
+		    font-size: 30px !important;
+		    margin: 15px 0px !important;
+	}
+	.quality-item{
+		    height: 391px  !important;
+	}
+	.request-title{
+		 font-size: 30px !important;
+	}
+}

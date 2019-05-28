@@ -1,0 +1,139 @@
+.header-menu__text {
+	margin-left: 27px;
+	color: #000000;
+	font-size: 30px;
+	font-weight: 700;
+}
+
+.header-row {
+	align-items: center;
+	padding-top: 40px;
+}
+
+.header {
+	background-image: url(../img/bg-header.png);
+	background-position: center;
+	background-size: cover;
+	height: 1291px;
+}
+
+.header-information {
+	margin-top: 69px;
+	color: #000000;
+	font-family: "Open Sans";
+	font-size: 20px;
+	font-weight: 700;
+	$this: &;
+
+	&__number {
+		color: #000000;
+		font-size: 40px;
+		font-weight: 700;
+		margin-bottom: 27px;
+	}
+
+	&__link {
+		color: #ff6600;
+		font-size: 26px;
+		font-weight: 700;
+		border-bottom: 2px solid #ff6600;
+	}
+
+	&__subtitle {
+		color: #000000;
+		font-family: "Raleway - Black";
+		font-size: 60px;
+		font-weight: 400;
+		line-height: 50px;
+		margin-top: 140px;
+	}
+}
+
+.overlay-consultation {
+	width: 100%;
+	height: 750px;
+	background-image: url(../img/bg-consultation.png);
+	background-position: center;
+	background-size: cover;
+}
+
+.consultation-row {
+	$this: &;
+
+	&__title {
+		color: #000000;
+		font-family: "Open Sans";
+		font-size: 20px;
+		font-weight: 700;
+		margin-top: 38px;
+		position: relative;
+	}
+
+	&__title::before {
+		content: '';
+		position: absolute;
+		width: 36%;
+		height: 2px;
+		top: 14px;
+		background-color: #cccccc;
+		display: inherit;
+	}
+
+	&__title::after {
+		content: '';
+		position: absolute;
+		width: 36%;
+		height: 2px;
+		top: 14px;
+		background-color: #cccccc;
+		display: inherit;
+		right: 0;
+	}
+	&__subtitle{
+		margin-top: 41px;
+color: #000000;
+font-size: 30px;
+font-weight: 700;
+	}
+	&__subtitle__sm{
+		margin-top: 10px;
+color: #000000;
+font-size: 30px;
+font-weight: 700;
+	}
+}
+.consultation-btn{
+	margin-top: 100px;
+	justify-content: center;
+	$this: &;
+	&__item{
+		display: flex;
+width: 100%;
+max-width: 320px;
+height: 80px;
+border-radius: 4px;
+background-color: #ff6600;
+		justify-content: center;
+		align-items: center;
+		cursor: pointer;
+		span{
+color: #ffffff;
+font-size: 20px;
+font-weight: 700;
+		}
+	}
+	&__item__sm{
+	background-color: transparent;
+border-radius: 4px;
+border: 2px solid #ff6600;
+		span{
+			color: #111111;
+		}
+	}
+}
+.header-information__title{
+color: #000000;
+font-family: "Open Sans";
+font-size: 20px;
+font-weight: bold;
+}
