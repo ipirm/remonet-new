@@ -10610,8 +10610,8 @@ button.swiper-pagination-bullet {
     -webkit-border-radius: 4px;
     border-radius: 4px;
     border: 1px solid #eef0ef;
-    height: 380px;
-    margin-bottom: 15px; }
+    height: 320px;
+    margin-bottom: 30px; }
   .opportunities-row__item__text {
     color: #000000;
     font-size: 24px;
@@ -10904,7 +10904,8 @@ button.swiper-pagination-bullet {
     margin-top: 38px; }
   .opportunities-row__item {
     height: 210px;
-    padding: 35px; }
+    padding: 35px;
+    margin-bottom: 15px; }
   .opportunities-row__item__text {
     font-size: 15px;
     margin-top: 14px; }
