@@ -26,19 +26,27 @@
 	$this: &;
 
 	&__number {
-		color: #000000;
-		font-size: 40px;
-		font-weight: 700;
-		margin-bottom: 27px;
-
-		display: block;
+		color: #fff;
+    font-weight: 700;
+    display: flex;
+    background-color: #ff6600;
+    margin: auto;
+       width: 232px;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 10px 0px;
+		span{
+			    font-size: 18px;
+		}
 	}
 
 	&__link {
-		color: #ff6600;
-		font-size: 26px;
-		font-weight: 700;
-		border-bottom: 2px solid #ff6600;
+		    color: #ff6600;
+    font-size: 14px;
+    font-weight: 700;
+    border-bottom: 2px solid #ff6600;
+    position: relative;
+    top: -4px;
 	}
 
 	&__subtitle {
@@ -54,9 +62,25 @@
 .overlay-consultation {
 	width: 100%;
 	height: 750px;
-	background-image: url(../img/bg-consultation.png);
 	background-position: center;
 	background-size: cover;
+	position: relative;
+	background-image: url(../img/bg-consultation.png);
+	
+}
+.overlay-consultation::before{
+	background-size: cover;
+	content: '';
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+		background: rgba(255, 255, 255, 0.5);
+	bottom: 0;
+	z-index: 0;
+	display: block;
 }
 
 .consultation-row {
@@ -108,7 +132,7 @@
 }
 
 .consultation-btn {
-	margin-top: 100px;
+	margin-top: 70px;
 	justify-content: center;
 	$this: &;
 
@@ -150,4 +174,25 @@
 
 .consultation-btn__item:hover {
 	opacity: 0.9;
+}
+.hader-nav__menu{
+	display: none;
+}
+	.hader-nav__menu__item{
+		display: flex;
+    justify-content: center;
+    align-items: center;
+   height: 45px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #222;
+    margin-bottom: 10px;
+	}
+.overlay-menu-btn{
+	display: none;
+}
+.menu-desktop{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
 }

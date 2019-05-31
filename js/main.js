@@ -8,6 +8,16 @@
     	},
     });
 
-    $(".hamburger--slider").click(function () {
-    	$(this).toggleClass("is-active");
-    });
+
+$( ".hamburger--slider" ).click(function() {
+				
+				 
+  $( ".hader-nav__menu" ).slideToggle( "slow", function() {
+  });
+});
+			$( ".mobile-menu" ).click(function() {
+  $('.desktop-menu').removeClass( "is-active" );
+});	
+		$( ".desktop-menu" ).click(function() {
+  $('.mobile-menu').addClass( "is-active" );
+});	
