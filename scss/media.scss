@@ -1,141 +1,307 @@
 @media only screen and (max-width: 600px) {
-	.consultation-btn__item__look{
-		display: none;
+	.header-menu__text {
+		    margin-left: 0px;
+    font-size: 13px;
+    position: relative;
+    top: 19px;
+    left: -59px;
+    text-transform: uppercase;
 	}
-	.header-menu__text{
-		margin-left: 7px;
-		font-size: 20px;
+
+	.header-row {
+		padding-top: 10px;
 	}
-	.header-information__title{
+
+	.header-information__title {
 		font-size: 15px;
 	}
-	.header-information__number{
-		font-size: 27px;
+
+	.header-information {
+		margin-top: 40px;
 	}
-	.header-information__link{
-		font-size: 19px;
+
+	.header-information__number {
+		
+		color: #fff;
+    font-weight: 700;
+    display: flex;
+    background-color: #ff6600;
+    margin: auto;
+    width: 198px;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 5px 0px;
+	
+	
 	}
+
+	.header-information__link {
+		font-size: 11px;
+	}
+
 	.header-information__subtitle {
-    font-size: 32px;
-    margin-top: 73px;
-}
-	.consultation-row__title{
+		font-size: 32px;
+		margin-top: 73px;
+	}
+
+	.consultation-row__title {
 		font-size: 15px;
 	}
-	.consultation-row__subtitle{
+
+	.consultation-row__subtitle {
 		font-size: 19px;
 	}
+
 	.consultation-row__subtitle__sm {
-    margin-top: 3px;
-    font-size: 19px;
-}
-	.consultation-btn__item span{
+		margin-top: 3px;
+		font-size: 19px;
+	}
+
+	.consultation-btn__item span {
 		font-size: 14px;
 	}
-	.consultation-btn__item{
+
+	.consultation-btn__item {
 		height: 59px;
+		width: 100% !important;
 	}
-	.header{
+
+	.header {
 		height: auto;
 	}
-	.overlay-consultation{
+
+	.overlay-consultation {
 		height: 470px;
 	}
-	.advantages-row .advantages-row__item{
+
+	.advantages-row .advantages-row__item {
 		height: 293px;
 	}
-	.advantages-row__item__text{
+
+	.advantages-row__item__text {
 		font-size: 15px;
 	}
-	.opportunities-title{
+
+	.opportunities-title {
 		font-size: 30px;
 	}
+
 	.opportunities-title span::before {
-    border-bottom: 3px solid #ff6600;
-    height: 82%;
-}
-	.opportunities-row{
+		border-bottom: 3px solid #ff6600;
+		height: 82%;
+	}
+
+	.opportunities-row {
 		margin-top: 38px;
 	}
-	.opportunities-row__item{
-		    height: 210px;
-		    padding: 35px;
+
+	.opportunities-row__item {
+		height: 210px;
+		padding: 35px;
 	}
-	.opportunities-row__item__text{
+
+	.opportunities-row__item__text {
 		font-size: 15px;
 		margin-top: 14px;
 	}
-	.deadlines-title{
+
+	.deadlines-title {
 		font-size: 30px !important;
 	}
-	.deadlines-subtitle{
+
+	.deadlines-subtitle {
 		font-size: 17px !important;
-		  margin-top: 20px !important;
+		margin-top: 20px !important;
 	}
-	.deadlines-row{
+
+	.deadlines-row {
 		padding-top: 40px !important;
 	}
-	.deadlines-row__item__number{
+
+	.deadlines-row__item__number {
 		font-size: 30px !important;
 	}
-	.deadlines-row__item__number span{
+
+	.deadlines-row__item__number span {
 		font-size: 50px !important;
 	}
-	.deadlines-row__item__text{
-		    font-size: 15px !important;
-		 margin-top: 0px !important;
+
+	.deadlines-row__item__text {
+		font-size: 15px !important;
+		margin-top: 0px !important;
 	}
-	.deadlines-row__item{
-		    margin-bottom: 10px !important;
+
+	.deadlines-row__item {
+		margin-bottom: 10px !important;
 	}
-	.deadlines-subtitle{
+
+	.deadlines-subtitle {
 		margin-bottom: 30px !important;
 	}
-	.deadlines-questions{
-		    margin-top: 26px !important;
+
+	.deadlines-questions {
+		margin-top: 26px !important;
 		font-size: 21px !important;
 		margin-bottom: 25px !important;
 	}
-	.deadlines{
+
+	.deadlines {
 		padding-bottom: 40px !important;
 	}
-	.about-title{
+
+	.about-title {
 		font-size: 26px !important;
-		    line-height: 34px !important;
+		line-height: 34px !important;
 	}
-	.about{
+
+	.about {
 		padding-top: 40px !important;
-		    padding-bottom: 85px !important;
+		padding-bottom: 85px !important;
 	}
-	.about-subtitle{
-		    margin-top: 32px !important;
-		    font-size: 17px !important;
-		    margin-bottom: 70px !important;
+
+	.about-subtitle {
+		margin-top: 32px !important;
+		font-size: 17px !important;
+		margin-bottom: 70px !important;
 	}
-	.inner-slide__text{
+
+	.inner-slide__text {
 		font-size: 13px !important;
 	}
-	.inner-slide__quote{
-		    font-size: 80px !important;
-		    top: 0% !important;
+
+	.inner-slide__quote {
+		font-size: 80px !important;
+		top: 0% !important;
 	}
-	.inner-slide{
+
+	.inner-slide {
 		height: 216px !important;
 	}
-	.inner-slide__person__text{
-		    font-size: 17px !important;
+
+	.inner-slide__person__text {
+		font-size: 17px !important;
 	}
-	.quality-item__text{
-		    font-size: 15px !important;
+
+	.quality-item__text {
+		font-size: 15px !important;
 	}
-	.quality-item__title{
-		    font-size: 30px !important;
-		    margin: 15px 0px !important;
+
+	.quality-item__title {
+		font-size: 30px !important;
+		margin: 15px 0px !important;
 	}
-	.quality-item{
-		    height: 391px  !important;
+
+	.quality-item {
+		height: 391px !important;
 	}
-	.request-title{
-		 font-size: 30px !important;
+
+	.request-title {
+		font-size: 30px !important;
+		line-height: 33px !important;
+	}
+
+	.consultation-btn__item__look {
+		width: 80% !important;
+	}
+
+	.input-login {
+		max-width: 320px !important;
+		height: 56px !important;
+	}
+
+	.input-login p {
+		font-size: 15px !important;
+	}
+
+	.overlay-inputs {
+		height: 217px;
+		overflow: hidden;
+	}
+
+	.request {
+		margin-top: 40px !important;
+	}
+
+	.input-login p::before {
+		content: '';
+		height: 2px;
+		width: 35% !important;
+		position: absolute;
+		background-color: #cccccc;
+		display: inline-block;
+		top: 10px;
+		left: 25% !important;
+	}
+
+	.input-login p span {
+		top: -3px !important;
+		left: -3px !important;
+	}
+
+	.inputs-row {
+		margin-top: 45px !important;
+	}
+
+	.input-login .input-registration::before {
+		width: 33% !important;
+		left: 32% !important;
+	}
+
+	.request-btn {
+		height: 57px !important;
+		max-width: 320px !important;
+		margin-top: 0px !important;
+	}
+
+	.input-login:last-of-type {
+		margin-bottom: 20px !important;
+	}
+
+	.footer {
+		margin-top: 100px;
+	}
+
+	.footer-title {
+		margin-bottom: 40px;
+	}
+
+	.footer-link {
+		margin-top: 30px;
+	}
+
+	.footer-link__item {
+		font-size: 17px;
+	}
+
+	.footer-description {
+		margin-top: 40px;
+		font-size: 10px;
+		padding-bottom: 25px;
+
+	}
+	.hader-nav__menu{
+		display: flex;
+	    flex-direction: column;
+    position: absolute;
+    width: 100%;
+    z-index: 99;
+    top: 0px;
+    left: 0;
+    right: 0;
+				display: none;
+    left: 0;
+       background-image: url(../img/bg-header.png);
+	}
+	.overlay-menu-btn{
+	display: block;
+}
+		.menu-desktop{
+		display: none;
+	}
+}
+
+@media only screen and (min-width: 1200px) {
+	.consultation-btn__item {
+		width: 40% !important;
 	}
 }
